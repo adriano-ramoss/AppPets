@@ -12,7 +12,7 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
     MaterialCardView idMenuPets, idMenuAlimentos,
             idMenuDoacoes, idMenuServicos,
             idMenuLocalizar, idMenuParceiros;
-
+//teste
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
