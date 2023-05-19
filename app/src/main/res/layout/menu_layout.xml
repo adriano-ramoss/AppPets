@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/fundo"
+    android:background="#0277BD"
     tools:context=".MenuActivity">
 
 
@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:fontFamily="@font/righteousregular"
-                    android:shadowColor="#9C8585"
+                    android:shadowColor="#F9A825"
                     android:shadowRadius="5"
                     android:text="Pets"
                     android:textAllCaps="true"
