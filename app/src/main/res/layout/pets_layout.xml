@@ -10,30 +10,28 @@
         android:id="@+id/idTabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.MaterialComponents.TabLayout">
-
+        android:contentDescription="TabPets">
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/idTabCachorro"
-            android:text="Cachorro"
+            android:id="@+id/idItemCachorro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:contentDescription="Cachorro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:text="Cachorro" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/idTabGato"
-            android:text="Gato"
+            android:id="@+id/idItemGato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:contentDescription="Gato"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:text="Gato" />
 
         <com.google.android.material.tabs.TabItem
-            android:id="@+id/idTabPassaro"
-            android:text="Passaro"
+            android:id="@+id/idItemPassaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:contentDescription="Passaro"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
+            android:text="Passaro" />
 
     </com.google.android.material.tabs.TabLayout>
 
@@ -41,6 +39,6 @@
         android:id="@+id/idViewPagerPets"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/idTabLayout"/>
+        android:layout_below="@id/idTabLayout" />
 
 </RelativeLayout>
