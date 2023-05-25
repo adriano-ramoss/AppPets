@@ -16,6 +16,10 @@ public class CachorroFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_cachorro, container, false);
+
+        //Todos os comandos devem ficar aqui
+
+
         return view;
     }
 }
