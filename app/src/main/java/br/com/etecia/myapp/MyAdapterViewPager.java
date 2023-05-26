@@ -9,8 +9,9 @@ import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 public class MyAdapterViewPager extends FragmentStatePagerAdapter {
 
-    public MyAdapterViewPager(@NonNull FragmentManager fm) {
-        super(fm);
+
+    public MyAdapterViewPager(@NonNull FragmentManager fm, int behavior) {
+        super(fm, behavior);
     }
 
     @NonNull
@@ -24,3 +25,10 @@ public class MyAdapterViewPager extends FragmentStatePagerAdapter {
         return 0;
     }
 }
+
+
+
+
+
+
+
